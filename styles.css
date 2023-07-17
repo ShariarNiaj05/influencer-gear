@@ -16,6 +16,14 @@
     font-weight: 700;
     align-items: center;
 }
+.heading-title{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+.desctiption{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
 
 
 
@@ -68,6 +76,7 @@ nav h2 {
 
 .banner-info{
     margin-bottom: 20px;
+    line-height: 50px;
 }
 
 .banner-info h1 {
@@ -129,6 +138,21 @@ nav h2 {
     font-size: 24px;
     
 }
+.see-more{
+    text-align: right;
+    color: #E02C6D;
+    margin-right: 30px;
+}
+/* Featured products styles */
+.featured-container{
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    margin: 50px 250px;
+
+}
+
+
 
 
 
@@ -173,9 +197,17 @@ nav h2 {
     .card-container{
         grid-template-columns: repeat(1, auto);
         margin: auto 20px;
-        
-        
-       
+    }
+    .see-more{
+        margin-top: 20px;
+        margin-right: 80px;
+    }
+
+    .featured-container{
+        flex-direction: column-reverse;
+        margin: 20px 50px;
+        text-align: center;
+    
     }
 
 }
