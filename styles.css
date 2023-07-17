@@ -16,11 +16,13 @@
     font-weight: 700;
     align-items: center;
 }
-.heading-title{
+
+.heading-title {
     font-size: 38px;
     margin-bottom: 10px;
 }
-.desctiption{
+
+.desctiption {
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -74,7 +76,7 @@ nav h2 {
 
 }
 
-.banner-info{
+.banner-info {
     margin-bottom: 20px;
     line-height: 50px;
 }
@@ -112,46 +114,59 @@ nav h2 {
 }
 
 /* Card container styles  */
-.card-title{
+.card-title {
     text-align: center;
     font-size: 36px;
 }
-.card-container{
+
+.card-container {
     display: grid;
     grid-template-columns: repeat(3, auto);
     justify-content: center;
     align-items: center;
     gap: 50px;
     margin: 25px 210px;
-    
-   
+
+
 }
-.card{
+
+.card {
     padding: 10px;
     box-shadow: 5px 5px 5px 5px rgb(222, 224, 224);
     border-radius: 10px;
     text-align: start;
     line-height: 30px;
-    
+
 }
-.card-price h4{
+
+.card-price h4 {
     font-size: 24px;
-    
+
 }
-.see-more{
+
+.see-more {
     text-align: right;
     color: #E02C6D;
-    margin-right: 30px;
+    margin-right: 400px;
 }
+
 /* Featured products styles */
-.featured-container{
+.featured-container {
     display: flex;
     justify-content: ;
     align-items: center;
-    margin: 50px 250px;
+    margin: 50px 200px;
 
 }
 
+/* Footer styles  */
+footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
 
 
 
@@ -194,20 +209,22 @@ nav h2 {
         flex-direction: column;
         padding: 0px;
     }
-    .card-container{
+
+    .card-container {
         grid-template-columns: repeat(1, auto);
         margin: auto 20px;
     }
-    .see-more{
+
+    .see-more {
         margin-top: 20px;
         margin-right: 80px;
     }
 
-    .featured-container{
+    .featured-container {
         flex-direction: column-reverse;
         margin: 20px 50px;
         text-align: center;
-    
+
     }
 
 }
