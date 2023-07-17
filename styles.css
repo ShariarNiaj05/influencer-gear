@@ -1,0 +1,62 @@
+/* Global style */
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+
+
+
+/* Header styles  */
+header{
+    margin-top: 30px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav h2{
+    font-size: 36px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.category li{
+    list-style: none;
+    font-size: 20px;
+}
+.category img{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------Respnsive styles -------------- */
+
+
+/* Responsive for mobile device */
+
+
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+        gap: 10px;;
+    }
+}
